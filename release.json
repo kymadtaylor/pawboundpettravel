@@ -1,0 +1,30 @@
+{
+  "app": "Pawbound",
+  "version": "4.8.0-beta",
+  "buildDate": "2026-11-20",
+  "status": "developer_preview",
+  "liveTravelRules": false,
+  "cloudSync": false,
+  "googlePhotosConfigured": false,
+  "entryPointDirectory": "249 destination options; 27 EU country guides via EU directory; 34 country-specific authority links; other destinations not independently verified",
+  "changes": [
+    "Require verified member session before home page/features display",
+    "Branded mobile-first sign-up and login welcome with existing mountain pet hero",
+    "Separate unchecked promotional email opt-in at registration and later preference editor",
+    "Password recovery entry point",
+    "Remove guest-first CTA and post-save signup prompts",
+    "Preserve existing travel guides and manual cloud backups",
+    "Scope local records to account on shared devices with explicit reload at account switch",
+    "Refresh installable PWA cache to v4.8"
+  ],
+  "backendMonitor": "n8n workflow VtAVPXjKtXvrNWdT active; six source checks scheduled daily, first execution unverified; no auto-publication",
+  "cloudBackup": "optional manual Supabase cloud copy after sign-in; no automatic syncing",
+  "guestMode": "disabled: sign-up or sign-in required before app UI is displayed",
+  "accountEntry": "required member gate, signup first",
+  "marketingEmails": "separate unchecked opt-in captured in private Supabase table; sending NOT connected",
+  "limitations": [
+    "Authentication UI is client side on a static site; source/assets are public, cloud data uses Supabase RLS",
+    "Supabase Auth default SMTP may be restricted to project team and low email limits; production SMTP needed",
+    "Only basic manual backups; signed-in sessions do not automatically sync records"
+  ]
+}

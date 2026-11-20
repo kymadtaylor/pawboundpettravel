@@ -1,0 +1,8 @@
+Pawbound v4.3 country guide test results — 20 November 2026
+
+Tested all 249 destination choices in Chromium with simulated browser storage.
+All 249 displayed a destination-named result after Confirm & View Country Guide.
+Also tested: country-specific official-link records, non-verified-country disclosure, EU-to-EU and non-EU-to-EU guidance, origin-country auto-classification, stale result hiding after selection changes, other animal caution.
+Result: all checks passed; 0 uncaught browser JavaScript errors.
+
+Note: Browser test was performed with page.set_content and simulated storage because direct local file/http navigation was restricted in this execution environment. Live Netlify deployment, current source page availability, country-by-country legal accuracy and authorization are NOT covered by this test.

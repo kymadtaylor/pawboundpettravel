@@ -1,0 +1,14 @@
+PAWBOUND v4.8 — MEMBERSHIP GATE + EMAIL OPT-IN
+
+Visitors must create a free Pawbound account or sign in before the app interface appears.
+- New photographic branded welcome screen; signup and login tabs.
+- Verification email flow handled by Supabase Auth.
+- The separate email-updates box is OFF by default; no marketing emails sent automatically.
+- Members can change their email preference under My Account & Backups.
+- Existing manual cloud backup/restore retained. No automatic sync yet.
+- Shared-device account switching scopes local records per account to reduce accidental exposure.
+
+BACKEND: Supabase marketing_preferences table + row-level security + signup trigger was deployed.
+DEPLOY: Export any existing Pawbound backup, then upload ZIP to same Netlify project.
+BEFORE PUBLIC LAUNCH: Configure a production SMTP provider in Supabase Auth. Its built-in mailer is heavily restricted. Add CAPTCHA/rate limits, finish legal privacy policy, test real email confirm/reset and separate accounts.
+LIMITATION: Front-end gate is not server-side protection of static HTML/assets. Private backup records are protected by Supabase RLS.

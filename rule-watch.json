@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "lastRun": null,
+  "status": "not_connected",
+  "sources": [
+    {
+      "id": "eu-travel",
+      "name": "European Union \u2014 pet travel",
+      "url": "https://europa.eu/youreurope/citizens/travel/carry/pets-and-other-animals/index_en.htm",
+      "status": "not_connected"
+    },
+    {
+      "id": "eu-entry",
+      "name": "European Commission \u2014 pets entering the EU",
+      "url": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/bringing-pet-eu-non-eu-country_en",
+      "status": "not_connected"
+    },
+    {
+      "id": "uk-entry",
+      "name": "United Kingdom \u2014 bringing pets to Great Britain",
+      "url": "https://www.gov.uk/bring-your-pet-to-great-britain",
+      "status": "not_connected"
+    },
+    {
+      "id": "uk-routes",
+      "name": "United Kingdom \u2014 approved pet travel routes",
+      "url": "https://www.gov.uk/bring-pet-to-great-britain/travel-routes-pets",
+      "status": "not_connected"
+    },
+    {
+      "id": "us-aphis",
+      "name": "United States USDA \u2014 pet travel",
+      "url": "https://www.aphis.usda.gov/pet-travel",
+      "status": "not_connected"
+    },
+    {
+      "id": "au-daff",
+      "name": "Australia \u2014 importing cats and dogs",
+      "url": "https://www.agriculture.gov.au/biosecurity-trade/cats-dogs",
+      "status": "not_connected"
+    }
+  ],
+  "note": "Monitoring has not run on this website; do not rely on this for legal clearance."
+}
